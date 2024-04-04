@@ -1,0 +1,53 @@
+.users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 35px;
+    padding: 150px 120px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.75)), url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    height: 350px;
+    margin: 20px 40px;
+    box-shadow: 5px 5px 10px #ddd;
+    background: #fff;
+    transition: all .3s ease-out;
+}
+
+.card:hover {
+    transform: scale(1);
+    background: #929292;
+    color: #fff;
+    cursor: pointer;
+}
+.avatar {
+    margin: 20px 0 0px 75px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.details h2 {
+    position: relative;
+    font-weight: 800;
+    font-size: 25px;
+    color: #222;
+    margin: 10px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+.details p {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
