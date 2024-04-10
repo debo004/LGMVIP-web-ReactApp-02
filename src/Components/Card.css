@@ -1,6 +1,6 @@
 .users{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     row-gap: 35px;
     padding: 150px 120px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75),
@@ -10,8 +10,8 @@
 }
 
 .card {
-    height: 350px;
-    margin: 20px 40px;
+    height: 250px;
+    margin: 10px 40px;
     box-shadow: 5px 5px 10px #ddd;
     background: #fff;
     transition: all .3s ease-out;
@@ -26,9 +26,9 @@
     cursor: pointer;
 }
 .avatar {
-    margin: 20px 0 0px 75px;
-    width: 200px;
-    height: 200px;
+    margin: 20px 0 0px 125px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 50%;
 }
